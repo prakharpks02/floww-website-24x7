@@ -49,6 +49,12 @@ This files contents are outlined below>>>>>
     --floww-blue-color: #FF0080;
 }
 
+.special-text-custom {
+    color: var(--floww-orange-color);
+    font-size: 20px;
+    font-weight: 600;
+}
+
 /* Default CSS */
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700|Roboto:300,300i,400,400i,500,700,700i');
 
@@ -794,6 +800,10 @@ Hero slider style
 }
 
 @media only screen and (max-width: 768px) {
+    .special-text-custom {
+        font-size: 18px;
+    }
+
     .single-hs-item {
         height: 550px;
     }
@@ -1074,6 +1084,7 @@ Hero slider style
     line-height: 30px;
     font-size: 15px;
     margin-bottom: 14px;
+    text-align: justify;
 }
 
 .who-btn {
